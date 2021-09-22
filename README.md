@@ -35,3 +35,13 @@ Hello, this application showcases a possible solution on how to pull information
   - \-p, --PhotoId    Filter on a optional photo id.
 - help       Display more information on a specific command.
 - version    Display version information.
+- exit       Exits the application
+
+### Command Examples
+Get the album with an Id of 2
+```> ablum --AlbumId=2```
+OR
+```> ablum -i2```
+
+Get a photo from an album
+```> photo -i2 -p53```
