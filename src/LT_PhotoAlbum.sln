@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LT_PhotoAlbum", "LT_PhotoAlbum\LT_PhotoAlbum.csproj", "{6160B172-4445-4D3A-8584-74923F079267}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LT_PhotoAlbum.Tests", "LT_PhotoAlbum.Tests\LT_PhotoAlbum.Tests.csproj", "{1738AE78-3C55-48E4-A3DD-35C675DBD91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{87E7D34A-41CD-457E-843F-A79AD3D0D72A}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6160B172-4445-4D3A-8584-74923F079267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6160B172-4445-4D3A-8584-74923F079267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6160B172-4445-4D3A-8584-74923F079267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6160B172-4445-4D3A-8584-74923F079267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1738AE78-3C55-48E4-A3DD-35C675DBD91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1738AE78-3C55-48E4-A3DD-35C675DBD91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1738AE78-3C55-48E4-A3DD-35C675DBD91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1738AE78-3C55-48E4-A3DD-35C675DBD91C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4FC8EE4-AB36-4657-8823-F0EDF1322A64}
+	EndGlobalSection
+EndGlobal
